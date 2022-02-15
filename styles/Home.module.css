@@ -1,0 +1,48 @@
+.container { 
+  background-image: url("../public/pixel.jpg");
+  width: 100vh;
+  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.video { 
+  position: absolute;
+  height: 50vw;
+  width: 50vw;
+  top: 0%;
+  left: 25%;
+}
+
+.angel { 
+  z-index: 2;
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  top: 15%;
+  left: 42.7%;
+}
+
+.logo { 
+  z-index: 3;
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  top: 44%;
+  left: 36.5%;
+}
+
+.enter { 
+  z-index: 4;
+  position: absolute; 
+  top: 68%;
+  left: 48%;
+  color: #fdce84;
+  font-size: 1.5vw;
+  font-weight: bold;
+
+}
+
+.enter:hover {
+  color: #ffcdd3; 
+}
