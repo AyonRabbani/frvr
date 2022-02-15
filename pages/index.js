@@ -22,7 +22,7 @@ export default function Home() {
         <div className={styles.logo}>
           <Image src={logo} height={150} width={550} />
         </div>
-        <a className={styles.enter}>&apos;SOON&apos;</a>
+        <a className={styles.enter}>&apos;&apos;SOON&apos;&apos;</a>
     </div>
   )
 }
